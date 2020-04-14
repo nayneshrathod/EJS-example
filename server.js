@@ -25,7 +25,7 @@ MongoClient.connect(url, function (err, db) {
   if (err) throw err;
   var dbo = db.db("mydb");
   dbo.createCollection("customers", function (err, res) {
-    if (err) throw err;
+    if (err) throw err;6
     console.log("Collection created!");
     db.close();
   });
@@ -59,18 +59,22 @@ app.get("/product", function (req, res) {
   MongoClient.connect(url, function (err, db) {
     if (err) throw err;
     var dbo = db.db("mydb");
-    dbo
-      .collection("products")
-      .find()
+    dbo.collection("products")
+      .find({typy:"shoes"})
       .toArray()
-      .then((results) => {
-        res.render("product", {
-          data: results,
-          ans: "All document show",
-          sample: "This Is a GET data ",
-        });
-      })
-      .catch(/* ... */);
+      .then((resultsss)=>{});
+    dbo.collection("products")
+      .find({typy:"mobile"})
+      .toArray()
+      .then((resultmobile) => {
+      });
+      
+    res.render("product", {
+        data: resultsss,
+        dataM: resultmobile, 
+        ans: "All document show",
+        sample: "This Is a GET data ",
+    });
   });
 });
 
@@ -121,6 +125,8 @@ app.get("/register", (req, res) => {
  
           
 app.post('/login', (req, res) => {
+  sample=[];
+  ans=[];
   MongoClient.connect(url, (err, db) => {
     const dbo = db.db("mydb");
     dbo.collection('users').findOne({ email: req.body.email, pwd: req.body.pwd }, (err, user) => {
@@ -130,14 +136,14 @@ app.post('/login', (req, res) => {
       else {
         if (!!user) {
           console.log("user is right")
-          // res.redirect("http://localhost:8000/");
-          res.render("index");
+          res.redirect("http://localhost:8000/");
+          // res.render("index",{sample,});
         }
         else {
-          console.log("user is wrong")
-          // res.redirect("http://localhost:8000/login");
+          console.log("user is wrong") 
+          res.redirect("http://localhost:8000/login");
 
-         res.render("login");
+         // res.render("login");
         }
       }
       db.close();
