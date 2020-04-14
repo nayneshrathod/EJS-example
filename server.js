@@ -60,18 +60,22 @@ app.get("/product", function (req, res) {
     if (err) throw err;
     var dbo = db.db("mydb");
     dbo.collection("products")
-      .find({typy:"shoes"})
+      .find()
       .toArray()
-      .then((resultsss)=>{});
+      .then((results)=>{});
     dbo.collection("products")
-      .find({typy:"mobile"})
+      .find({type:"shoes"})
       .toArray()
-      .then((resultmobile) => {
+      .then((results_shoes)=>{});
+    dbo.collection("products")
+      .find({type:"mobile"})
+      .toArray()
+      .then((results_mobile) => {
       });
-      
-    res.render("product", {
-        data: resultsss,
-        dataM: resultmobile, 
+     res.render("product", {
+        data: results,
+        dataS: results_shoes,
+        dataM: results_mobile, 
         ans: "All document show",
         sample: "This Is a GET data ",
     });
