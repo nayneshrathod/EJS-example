@@ -1,0 +1,45 @@
+
+        <h1>            <%= sample %> </h1>
+        <% for( let nr = 0; nr < name.length; nr++ ) { %>
+        <h3><%= name[nr] %> </h3>
+        <% if (name[nr] == 'khumesh') { %>
+        <% break %>
+        <h1>copy is the best</h1>
+
+        <% } %>
+        <% } %>
+        <hr>
+
+
+
+
+
+
+        <% for( let nr = 0; nr < dataa.length; nr++ ) { %>
+            <h3><%= dataa.name[nr] %> </h3>
+            <h3><%= dataa.address[nr] %> </h3>
+            <% } %>
+            <hr>
+            <!-- 
+                    <%= name[0] %>
+                <%= name[2] %>
+                <%= name[1] %> 
+            -->
+
+
+
+
+
+
+
+
+
+
+        <% for (var i = 0; i < dataa.length; i++) {%>
+            <tr>
+              <td><%= dataa[i]["_id"] %></td>
+              <td><%= dataa[i]["name"] %></td>
+              <td><%= dataa[i]["address"] %></td>
+              <td>EDITAR / REMOVER</td>
+            </tr>
+            <%}%>
