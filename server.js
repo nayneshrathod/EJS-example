@@ -118,6 +118,37 @@ app.get("/register", (req, res) => {
   res.render("register");
 });
 
+ 
+          
+app.post('/login', (req, res) => {
+  MongoClient.connect(url, (err, db) => {
+    const dbo = db.db("mydb");
+    dbo.collection('users').findOne({ email: req.body.email, pwd: req.body.pwd }, (err, user) => {
+      if (err) {
+        res.status(501).send("not found");
+      }
+      else {
+        if (!!user) {
+          console.log("user is right")
+          // res.redirect("http://localhost:8000/");
+          res.render("index");
+        }
+        else {
+          console.log("user is wrong")
+          // res.redirect("http://localhost:8000/login");
+
+         res.render("login");
+        }
+      }
+      db.close();
+    });
+  });
+});
+
+app.get("/login", (req, res) => {
+  res.render("login");
+});
+
 app.listen(8000, function () {
   console.log("this is port http://localhost:8000/");
 });
