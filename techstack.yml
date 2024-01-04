@@ -1,11 +1,12 @@
 repo_name: nayneshrathod/EJS-example
 report_id: 242297c042941ab710032f5d4daa84eb
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T18:44:10+00:00'
+timestamp: '2024-01-04T15:11:48+00:00'
 requested_by: nayneshrathod
 provider: github
 branch: master
-detected_tools_count: 268
+detected_tools_count: 272
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example
   detection_source: Repo Metadata
 - name: D
   description: Modern convenience. Modeling power. Native efficiency.
@@ -24,7 +26,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3117/d-5.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: JavaScript
@@ -36,6 +39,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/nayneshrathod/EJS-example
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -46,6 +50,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/setprototypeof/package.json
   detection_source: node_modules/setprototypeof/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -58,6 +63,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/safe-buffer/package.json
   detection_source: node_modules/safe-buffer/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -71,7 +77,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
-  detection_source_url: node_modules/denque/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/denque/package.json
   detection_source: node_modules/denque/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -85,7 +91,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
-  detection_source: node_modules/semver/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/iconv-lite/package.json
+  detection_source: node_modules/iconv-lite/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: Bootstrap
@@ -98,6 +105,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/utils-merge/package.json
   detection_source: node_modules/utils-merge/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -110,7 +118,8 @@ tools:
   category: Libraries
   sub_category: Charting Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source: node_modules/string_decoder/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/cookie-signature/package.json
+  detection_source: node_modules/cookie-signature/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: ExpressJS
@@ -124,8 +133,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: Next.js
@@ -136,7 +145,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/5936/nextjs.png
-  detection_source: node_modules/readable-stream/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/isarray/package.json
+  detection_source: node_modules/isarray/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: Node.js
@@ -148,7 +158,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: Prototype
@@ -159,7 +170,8 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/3597/o_bigger_400x400.png
-  detection_source: node_modules/setprototypeof/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/express/package.json
+  detection_source: node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: MongoDB
@@ -170,7 +182,8 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
-  detection_source: package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bl/package.json
+  detection_source: node_modules/bl/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: PostgreSQL
@@ -181,7 +194,8 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
-  detection_source: node_modules/debug/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bson/package.json
+  detection_source: node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: Redis
@@ -193,6 +207,7 @@ tools:
   category: Data Stores
   sub_category: In-Memory Databases
   image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/express/package.json
   detection_source: node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -205,7 +220,8 @@ tools:
   category: Data Stores
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/21146/default_3b393819f74c4cb10f98fa9e683fa28cf6cc85f5.png
-  detection_source: node_modules/type-is/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: ws
@@ -217,7 +233,8 @@ tools:
   category: Application Hosting
   sub_category: Realtime Backend / API
   image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
-  detection_source: node_modules/util-deprecate/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bson/browser_build/package.json
+  detection_source: node_modules/bson/browser_build/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: Babel
@@ -230,8 +247,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JavaScript Compilers
   image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
-  detection_source_url: node_modules/bson/package.json
-  detection_source: node_modules/string_decoder/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bson/package.json
+  detection_source: node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: Browserify
@@ -244,8 +261,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/849/9esmqty2.png
-  detection_source_url: node_modules/debug/package.json
-  detection_source: node_modules/util-deprecate/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/debug/package.json
+  detection_source: node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: Chai
@@ -258,8 +275,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/1725/chai.png
-  detection_source_url: node_modules/debug/package.json
-  detection_source: node_modules/utils-merge/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/debug/package.json
+  detection_source: node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: Coveralls
@@ -271,7 +288,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Coverage
   image_url: https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png
-  detection_source: node_modules/mongodb/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/debug/package.json
+  detection_source: node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: ESLint
@@ -283,7 +301,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: EditorConfig
@@ -295,6 +314,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/4726/edcon_color_transbg2_400x400.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/qs/package.json
   detection_source: node_modules/qs/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -306,6 +326,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example
   detection_source: Repo Metadata
 - name: InSpec
   description: Open-source testing framework for infrastructure
@@ -315,6 +336,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/6202/inspec-1.jpg
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/qs/package.json
   detection_source: node_modules/qs/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -328,7 +350,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: node_modules/saslprep/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/saslprep/package.json
   detection_source: node_modules/saslprep/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -342,7 +364,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Browser Testing
   image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
-  detection_source_url: node_modules/debug/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/debug/package.json
   detection_source: node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -357,8 +379,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/832/mocha.png
-  detection_source_url: node_modules/accepts/package.json
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: NuGet
@@ -369,7 +391,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
-  detection_source: node_modules/semver/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/iconv-lite/package.json
+  detection_source: node_modules/iconv-lite/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: PhantomJS
@@ -381,6 +404,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Headless Browsers
   image_url: https://img.stackshare.io/service/1832/phantomjs.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/debug/package.json
   detection_source: node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -394,8 +418,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: node_modules/mongodb/package.json
-  detection_source: node_modules/send/node_modules/ms/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/mongodb/package.json
+  detection_source: node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: PyPI
@@ -406,6 +430,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/setprototypeof/package.json
   detection_source: node_modules/setprototypeof/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -417,6 +442,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/safe-buffer/package.json
   detection_source: node_modules/safe-buffer/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -429,8 +455,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/3509/logo.png
-  detection_source_url: node_modules/debug/package.json
-  detection_source: node_modules/mongodb/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/debug/package.json
+  detection_source: node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: SuperTest
@@ -443,8 +469,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: node_modules/body-parser/package.json
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/body-parser/package.json
+  detection_source: node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: Testling
@@ -456,6 +482,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/851/testling.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/isarray/package.json
   detection_source: node_modules/isarray/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -468,7 +495,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
-  detection_source: node_modules/string_decoder/.travis.yml
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bl/.travis.yml
+  detection_source: node_modules/bl/.travis.yml
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: Webpack
@@ -481,7 +509,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
-  detection_source_url: node_modules/bson/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bson/package.json
   detection_source: node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -495,7 +523,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Git Tools
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: npm
@@ -506,7 +535,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: pre-commit
@@ -518,7 +548,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Git Tools
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: node_modules/array-flatten/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/array-flatten/package.json
   detection_source: node_modules/array-flatten/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -531,7 +561,8 @@ tools:
   category: Application Hosting
   sub_category: Platform as a Service
   image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
-  detection_source: node_modules/saslprep/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/mongodb/package.json
+  detection_source: node_modules/mongodb/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: Buffer
@@ -542,7 +573,8 @@ tools:
   category: Support, Sales, and Marketing
   sub_category: Social Media Tools
   image_url: https://img.stackshare.io/service/825/hnc3q-7x.jpg
-  detection_source: node_modules/safer-buffer/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bl/package.json
+  detection_source: node_modules/bl/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: Chartio
@@ -553,7 +585,8 @@ tools:
   category: Analytics
   sub_category: Business Intelligence
   image_url: https://img.stackshare.io/service/9/TtrFaQ3j_400x400.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: Segment
@@ -565,7 +598,8 @@ tools:
   category: Analytics
   sub_category: Analytics Integrator
   image_url: https://img.stackshare.io/service/5/default_aa447805966bbb635af0d113e93e1f1030497052.jpg
-  detection_source: node_modules/mime/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/mime-db/package.json
+  detection_source: node_modules/mime-db/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: Lodash
@@ -577,8 +611,8 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2438/lodash.png
-  detection_source_url: node_modules/object-assign/package.json
-  detection_source: node_modules/object-assign/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/object-assign/package.json
+  detection_source: node_modules/mongodb/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: OpenLayers
@@ -590,7 +624,8 @@ tools:
   category: Application Utilities
   sub_category: Mapping APIs
   image_url: https://img.stackshare.io/service/3208/397ce8027eb036960f00dd5153d41993.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: Q
@@ -602,7 +637,8 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/4697/default_2d5a1d7c5eb520cdeb7db120e767345004a1d0d4.png
-  detection_source: node_modules/utils-merge/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: React Navigation
@@ -614,7 +650,8 @@ tools:
   category: Mobile
   sub_category: Cross-Platform Mobile Tools
   image_url: https://img.stackshare.io/service/6422/react-navigation.png
-  detection_source: node_modules/toidentifier/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/denque/package.json
+  detection_source: node_modules/denque/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: chalk
@@ -623,7 +660,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/8072/13122722.png
-  detection_source: node_modules/safer-buffer/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/mongodb/package.json
+  detection_source: node_modules/mongodb/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: husky
@@ -631,7 +669,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
-  detection_source: node_modules/send/node_modules/ms/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/ms/package.json
+  detection_source: node_modules/ms/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: js
@@ -639,7 +678,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/5588/jscom.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: jsdoc
@@ -650,7 +690,8 @@ tools:
   category: Application Utilities
   sub_category: Documentation as a Service & Tools
   image_url: https://img.stackshare.io/service/4047/js-doc.png
-  detection_source: node_modules/saslprep/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/ejs/package.json
+  detection_source: node_modules/ejs/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: k6
@@ -662,6 +703,7 @@ tools:
   category: Application Utilities
   sub_category: Load and Performance Testing
   image_url: https://img.stackshare.io/service/7146/k6.jpeg
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/mime-types/package.json
   detection_source: node_modules/mime-types/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -670,7 +712,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
-  detection_source: node_modules/send/node_modules/ms/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/ms/package.json
+  detection_source: node_modules/ms/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: test
@@ -678,7 +721,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/5477/no-img-open-source.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: v8
@@ -686,7 +730,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/4093/113781.png
-  detection_source: node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bytes/package.json
+  detection_source: node_modules/bytes/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: "@octokit/rest"
@@ -698,7 +743,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16999/default_43f23668e39c9b3381720c9c76540776b8a49167.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: accepts
@@ -711,8 +757,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17723/default_552addbbff67ec0ef62ce1d229e112d14ca818f5.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/negotiator/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: address
@@ -724,7 +770,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18101/image.png
-  detection_source: node_modules/proxy-addr/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/ipaddr.js/package.json
+  detection_source: node_modules/ipaddr.js/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: after
@@ -737,8 +784,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17934/default_c741d08ac1035482640dcd4a57c59231d0ce4858.png
-  detection_source_url: node_modules/cors/package.json
-  detection_source: node_modules/send/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/cors/package.json
+  detection_source: node_modules/cors/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: angular
@@ -750,6 +797,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16174/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bson/package.json
   detection_source: node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -762,7 +810,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17564/default_99afdc7126f8a31ae778ef58d50c93ae3dd88880.png
-  detection_source: node_modules/readable-stream/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/array-flatten/package.json
+  detection_source: node_modules/array-flatten/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: args
@@ -774,7 +823,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18244/default_b102609c7a7fb86f3c2ca3ec026f3011d275978b.png
-  detection_source: node_modules/readable-stream/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/mongodb/package.json
+  detection_source: node_modules/mongodb/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: array-flatten
@@ -787,8 +837,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18115/image.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/array-flatten/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: assert
@@ -801,7 +851,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16188/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
-  detection_source_url: node_modules/readable-stream/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/readable-stream/package.json
   detection_source: node_modules/readable-stream/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -814,6 +864,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15851/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/iconv-lite/package.json
   detection_source: node_modules/iconv-lite/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -827,8 +878,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15883/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: node_modules/object-assign/package.json
-  detection_source: node_modules/toidentifier/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/object-assign/package.json
+  detection_source: node_modules/denque/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: babel-core
@@ -841,7 +892,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15798/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: node_modules/bson/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bson/package.json
   detection_source: node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -855,7 +906,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
-  detection_source_url: node_modules/bson/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bson/package.json
   detection_source: node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -869,8 +920,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15867/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: node_modules/bson/package.json
-  detection_source: node_modules/string_decoder/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bson/package.json
+  detection_source: node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: babel-preset-es2015
@@ -883,7 +934,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15805/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: node_modules/bson/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bson/package.json
   detection_source: node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -897,7 +948,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15846/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: node_modules/bson/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bson/package.json
   detection_source: node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -911,7 +962,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15865/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: node_modules/bson/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bson/package.json
   detection_source: node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -924,6 +975,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16771/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/denque/package.json
   detection_source: node_modules/denque/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -938,8 +990,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17221/default_183829c5079b84333a720d8590a328efc043ba0e.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/util-deprecate/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/array-flatten/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
   vulnerabilities:
@@ -959,8 +1011,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15866/default_01b1499f31f2eff6ed744a57b056e181400df5b2.png
-  detection_source_url: node_modules/mime-db/package.json
-  detection_source: node_modules/raw-body/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/mime-db/package.json
+  detection_source: node_modules/mime-db/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: body-parser
@@ -973,8 +1025,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: bson
@@ -987,8 +1039,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17380/default_c1932d441699b98abea6098c6f8f65e2acb4f5ed.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/require_optional/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/bson/browser_build/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: bytes
@@ -1001,8 +1053,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17201/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/raw-body/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: cac
@@ -1014,7 +1066,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18731/default_896e971e78d35d9228342aa32100298402d2473b.png
-  detection_source: node_modules/saslprep/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/ejs/package.json
+  detection_source: node_modules/ejs/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: camelcase
@@ -1027,7 +1080,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16559/default_50be6a65e5f7390c20dda2f19371abc1271db012.png
-  detection_source: node_modules/saslprep/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/mongodb/package.json
+  detection_source: node_modules/mongodb/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: chai-subset
@@ -1040,7 +1094,21 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17233/default_9fc4b0c75e3fd0ca34b2b1e215b90fd3d79ddde3.png
-  detection_source_url: node_modules/mongodb/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/mongodb/package.json
+  detection_source: node_modules/mongodb/package.json
+  last_updated_by: Naynesh Rathod
+  last_updated_on: 2020-04-14 10:21:11.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/mongodb/package.json
   detection_source: node_modules/mongodb/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -1053,7 +1121,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17384/default_b39374c3a74b433364bfdbff07be26214bf186fd.png
-  detection_source: node_modules/mongodb/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bson/package.json
+  detection_source: node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: co
@@ -1066,8 +1135,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16007/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: node_modules/mime-db/package.json
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/mime-db/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: code
@@ -1079,7 +1148,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16417/default_89ba91277e3434b03295bb11d22736632df1d04f.png
-  detection_source: node_modules/string_decoder/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/encodeurl/package.json
+  detection_source: node_modules/encodeurl/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: coffee-script
@@ -1092,7 +1162,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15920/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: node_modules/ipaddr.js/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/ipaddr.js/package.json
   detection_source: node_modules/ipaddr.js/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -1105,6 +1175,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16600/default_9d292a50abc76f1f74581b311ad930a616b1785c.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bson/package.json
   detection_source: node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -1118,7 +1189,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15908/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: node_modules/bson/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bson/package.json
   detection_source: node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -1131,7 +1202,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18220/default_46cc7e5b7a8c78af11a3ee7db2fc5fe39f295a6e.png
-  detection_source: node_modules/toidentifier/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/debug/package.json
+  detection_source: node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: concurrently
@@ -1144,7 +1216,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: node_modules/debug/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/debug/package.json
   detection_source: node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -1157,7 +1229,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17998/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: config
@@ -1169,7 +1242,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16353/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: connect
@@ -1181,7 +1255,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16202/default_2c2f2c7b016f84c0fad2576cb986cb14a5dbbc2f.png
-  detection_source: node_modules/mongodb/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/cors/package.json
+  detection_source: node_modules/cors/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: connect-redis
@@ -1194,7 +1269,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17325/default_6afdd1bc7e3815a18b56c31d0b4acf372c00f6e2.png
-  detection_source_url: node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/express/package.json
   detection_source: node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -1208,8 +1283,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18396/default_dc6769b9772560ba4cb2cd0455560c2922e23c92.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/safe-buffer/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/content-disposition/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: content-type
@@ -1222,8 +1297,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17887/default_788839e3786ca1ccd5da69cc550f25d0129fb180.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/type-is/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: conventional-changelog
@@ -1235,6 +1310,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16618/default_9012166d3e51cea5db6b4e69c80ace1c50b7509d.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bson/package.json
   detection_source: node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -1248,7 +1324,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16260/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
-  detection_source_url: node_modules/bson/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bson/package.json
   detection_source: node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -1262,8 +1338,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16660/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/cookie-signature/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: cookie-parser
@@ -1276,7 +1352,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16136/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
-  detection_source_url: node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/express/package.json
   detection_source: node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -1290,7 +1366,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17669/default_4ba4cce198b4498f328ca26971f69b03cf49892a.png
-  detection_source_url: node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/express/package.json
   detection_source: node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -1304,8 +1380,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18266/default_7f9b12bbc55824c0dff067aa1286b7d2699852f9.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/cookie-signature/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: cookies
@@ -1317,7 +1393,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17767/default_a53af9d6b5a4c8c6e8d5f8494d76a8d2efd3e660.png
-  detection_source: node_modules/cookie/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/cookie-signature/package.json
+  detection_source: node_modules/cookie-signature/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: copy
@@ -1329,6 +1406,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17538/default_1922051267fa78212ab6eb1238cdf6aab8771493.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/readable-stream/package.json
   detection_source: node_modules/readable-stream/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -1342,8 +1420,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18306/default_adee5b58cc2acb885faff4066ee6d7281131005f.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/string_decoder/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/core-util-is/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: cors
@@ -1356,8 +1434,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/cors/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: covert
@@ -1370,7 +1448,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18700/default_fc5b023c2170b00beeade822bdceeaf129047406.png
-  detection_source_url: node_modules/qs/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/qs/package.json
   detection_source: node_modules/qs/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -1383,7 +1461,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/npm/image.png
-  detection_source: node_modules/statuses/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/mime-db/package.json
+  detection_source: node_modules/mime-db/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: csv-parse
@@ -1396,8 +1475,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17054/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
-  detection_source_url: node_modules/mime-db/package.json
-  detection_source: node_modules/statuses/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/mime-db/package.json
+  detection_source: node_modules/mime-db/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: d3
@@ -1409,7 +1488,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16224/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/ejs/package.json
+  detection_source: node_modules/ejs/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: danger
@@ -1421,6 +1501,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18502/default_e81b0bd76811f164978fa6f4c4f71e0f1ccf1507.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/safer-buffer/package.json
   detection_source: node_modules/safer-buffer/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -1434,8 +1515,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/send/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: deep-equal
@@ -1448,8 +1529,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16405/default_5ffcf8d02a3454bd25d27d236025c6d078c3b672.png
-  detection_source_url: node_modules/accepts/package.json
-  detection_source: node_modules/range-parser/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: depd
@@ -1462,8 +1543,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17670/default_4ba4cce198b4498f328ca26971f69b03cf49892a.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/send/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: dot
@@ -1476,7 +1557,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17465/default_10a98ebc0146ab94b0fde6f7013c1279c82e4135.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/body-parser/package.json
+  detection_source: node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: ejs
@@ -1489,8 +1571,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16045/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
   vulnerabilities:
@@ -1511,7 +1593,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16051/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
-  detection_source_url: node_modules/require_optional/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/require_optional/package.json
   detection_source: node_modules/require_optional/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -1525,8 +1607,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17037/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/serve-static/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/escape-html/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: eslint-config-standard
@@ -1539,8 +1621,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15872/default_e4668902f8489350db9b0fb228523a571ef05b26.png
-  detection_source_url: node_modules/accepts/package.json
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: eslint-plugin-import
@@ -1553,8 +1635,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: node_modules/accepts/package.json
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: eslint-plugin-markdown
@@ -1567,8 +1649,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16770/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
-  detection_source_url: node_modules/accepts/package.json
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: eslint-plugin-node
@@ -1581,8 +1663,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15874/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: node_modules/accepts/package.json
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: eslint-plugin-prettier
@@ -1595,7 +1677,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
-  detection_source_url: node_modules/mongodb/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/mongodb/package.json
   detection_source: node_modules/mongodb/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -1609,8 +1691,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15885/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: node_modules/accepts/package.json
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: eslint-plugin-standard
@@ -1623,8 +1705,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15884/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: node_modules/accepts/package.json
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: etag
@@ -1637,8 +1719,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17743/default_552addbbff67ec0ef62ce1d229e112d14ca818f5.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/send/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/etag/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: expect
@@ -1650,7 +1732,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16110/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
-  detection_source: node_modules/send/node_modules/ms/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/ms/package.json
+  detection_source: node_modules/ms/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: expect.js
@@ -1663,8 +1746,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16029/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
-  detection_source_url: node_modules/ms/package.json
-  detection_source: node_modules/send/node_modules/ms/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/ms/package.json
+  detection_source: node_modules/ms/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: express
@@ -1677,8 +1760,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
   vulnerabilities:
@@ -1698,7 +1781,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16239/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
-  detection_source_url: node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/express/package.json
   detection_source: node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -1711,7 +1794,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16161/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
-  detection_source: node_modules/send/node_modules/ms/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/iconv-lite/package.json
+  detection_source: node_modules/iconv-lite/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: faucet
@@ -1724,7 +1808,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16457/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
-  detection_source_url: node_modules/bl/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bl/package.json
   detection_source: node_modules/bl/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -1737,6 +1821,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17812/default_2a0f136cfb588dd9053268b73a18a953e8d65590.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/mongodb/package.json
   detection_source: node_modules/mongodb/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -1750,8 +1835,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17238/default_747c790463912ea0e3a85597146d9c13d6a53db9.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/unpipe/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: flat
@@ -1763,7 +1848,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17025/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
-  detection_source: node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/array-flatten/package.json
+  detection_source: node_modules/array-flatten/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: flatten
@@ -1776,7 +1862,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18737/default_7dcbb101f983d7e8258c98920653a3bec91f6992.png
-  detection_source: node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/array-flatten/package.json
+  detection_source: node_modules/array-flatten/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: fresh
@@ -1789,8 +1876,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18037/default_d8756eea8d13a271fb42437ffb36c0a116d72925.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/send/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: fs
@@ -1803,6 +1890,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16098/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/safe-buffer/package.json
   detection_source: node_modules/safe-buffer/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -1815,7 +1903,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16804/default_55e3ea76a7929df1b71c5ea0c9b4130cc87323a4.png
-  detection_source: node_modules/utils-merge/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bl/package.json
+  detection_source: node_modules/bl/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: good
@@ -1827,6 +1916,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18704/default_b7722b4e5521f0dd20a42437bb338a5e2c190441.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/cors/package.json
   detection_source: node_modules/cors/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -1839,7 +1929,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16258/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source: node_modules/negotiator/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: has
@@ -1851,7 +1942,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18039/image.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: hat
@@ -1863,7 +1955,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18457/default_1ee30bb84bfc1558e9a2c7e21dfb728addee0444.png
-  detection_source: node_modules/sparse-bitfield/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/core-util-is/package.json
+  detection_source: node_modules/core-util-is/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: hbs
@@ -1876,7 +1969,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17878/default_788839e3786ca1ccd5da69cc550f25d0129fb180.png
-  detection_source_url: node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/express/package.json
   detection_source: node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -1897,7 +1990,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16209/default_dc80ff0a17bac19253430a4f0f586714841116db.png
-  detection_source: node_modules/serve-static/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/cookie/package.json
+  detection_source: node_modules/cookie/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: http
@@ -1908,7 +2002,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16874/default_768abdabb94806c932ace6262b6bbc8241907245.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: http-errors
@@ -1921,8 +2016,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16925/default_7b9968788548874538c601457e8dcd9c74bd2051.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/toidentifier/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: https
@@ -1934,7 +2029,22 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17546/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
+  last_updated_by: Naynesh Rathod
+  last_updated_on: 2020-04-14 10:21:11.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 0.13.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/ms/package.json
+  detection_source: node_modules/ms/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: i
@@ -1946,7 +2056,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17326/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: iconv
@@ -1958,7 +2069,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17911/default_40b5ae806e118a20c1717c75a46652a7358d8b42.png
-  detection_source: node_modules/safer-buffer/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/body-parser/package.json
+  detection_source: node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: iconv-lite
@@ -1971,8 +2083,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16350/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/safer-buffer/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: ignore
@@ -1984,6 +2096,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17744/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/require_optional/package.json
   detection_source: node_modules/require_optional/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -1998,8 +2111,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16376/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/string_decoder/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/http-errors/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: ini
@@ -2011,7 +2124,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16594/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
-  detection_source: node_modules/send/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/body-parser/package.json
+  detection_source: node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: intern
@@ -2023,6 +2137,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18437/default_7c0bc528b9c47f5cc09b0c87021a81c8d72b33f3.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/readable-stream/package.json
   detection_source: node_modules/readable-stream/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2035,7 +2150,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16483/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: ipaddr.js
@@ -2048,8 +2164,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18686/default_aa04137358f471f73d601f7d8b94126c37bdd90c.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/proxy-addr/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/ipaddr.js/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: is
@@ -2061,7 +2177,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17544/default_e665c133253b5cd434c1991167ebd25dc68f1c17.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: isarray
@@ -2074,8 +2191,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17568/default_3c6aa8b4297562bfc2a090966a5bc0fad1d0b678.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/readable-stream/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/isarray/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: istanbul
@@ -2090,8 +2207,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15833/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: node_modules/array-flatten/package.json
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/array-flatten/package.json
+  detection_source: node_modules/array-flatten/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: jake
@@ -2104,7 +2221,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18060/image.png
-  detection_source_url: node_modules/ejs/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/ejs/package.json
   detection_source: node_modules/ejs/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2117,7 +2234,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17859/default_dc034f75f103514d23b4d1a7fe578415d63216ee.png
-  detection_source: node_modules/statuses/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bson/package.json
+  detection_source: node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: karma-chai
@@ -2130,7 +2248,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16177/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
-  detection_source_url: node_modules/debug/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/debug/package.json
   detection_source: node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2144,7 +2262,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15962/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: node_modules/debug/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/debug/package.json
   detection_source: node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2158,7 +2276,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15947/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: node_modules/debug/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/debug/package.json
   detection_source: node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2172,7 +2290,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16601/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
-  detection_source_url: node_modules/debug/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/debug/package.json
   detection_source: node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2185,6 +2303,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16367/default_22cf6cee54c697b5a223902962cc57a55ee80be9.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/negotiator/package.json
   detection_source: node_modules/negotiator/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2197,7 +2316,22 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16948/default_3740a7ec4487cb5332a821b353451c008aa3d4ae.png
-  detection_source: node_modules/require_optional/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
+  last_updated_by: Naynesh Rathod
+  last_updated_on: 2020-04-14 10:21:11.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/ms/package.json
+  detection_source: node_modules/ms/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: lodash.camelcase
@@ -2210,7 +2344,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16436/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
-  detection_source_url: node_modules/mongodb/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/mongodb/package.json
   detection_source: node_modules/mongodb/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2223,7 +2357,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17960/default_e0b07170ab7d7ea66954ff35fdeaae5255c4c0aa.png
-  detection_source: node_modules/negotiator/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bson/package.json
+  detection_source: node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: lolex
@@ -2236,7 +2371,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16378/default_9fc2581a53b2f4e6797b1162eca9d9d2f6deee1f.png
-  detection_source_url: node_modules/readable-stream/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/readable-stream/package.json
   detection_source: node_modules/readable-stream/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2250,7 +2385,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16386/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
-  detection_source_url: node_modules/ejs/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/ejs/package.json
   detection_source: node_modules/ejs/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2263,7 +2398,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17001/default_0e6669b56ffe7d68d8118eb8e85d024215fd5906.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: marked
@@ -2276,20 +2412,20 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/express/package.json
   detection_source: node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
   vulnerabilities:
   - name: Inefficient Regular Expression Complexity in marked
-    cve_id: CVE-2022-21680
-    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
+    cve_id: CVE-2022-21681
+    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
     detected_date: Jan 15
     severity: high
     first_patched: 4.0.10
   - name: Inefficient Regular Expression Complexity in marked
-    cve_id: CVE-2022-21681
-    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
+    cve_id: CVE-2022-21680
+    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
     detected_date: Jan 15
     severity: high
     first_patched: 4.0.10
@@ -2309,7 +2445,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18117/image.png
-  detection_source_url: node_modules/object-assign/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/object-assign/package.json
   detection_source: node_modules/object-assign/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2322,7 +2458,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16534/default_2d1a470f86144a45b7e94185b9a5aecb5ebb69f4.png
-  detection_source: node_modules/utils-merge/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/express/package.json
+  detection_source: node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: merge-descriptors
@@ -2335,8 +2472,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18485/default_3ec0464ac20686e95d789b41ae623e935100ada7.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/merge-descriptors/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: method-override
@@ -2349,7 +2486,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16758/default_92482df1bcbe0d3a46cc1d597c9687a42da1cd04.png
-  detection_source_url: node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/express/package.json
   detection_source: node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2363,8 +2500,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17145/default_0ffbf6d9ee2940fe94be8424fd9afff068fff458.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/methods/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: mime
@@ -2377,8 +2514,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16182/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/type-is/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: mime-db
@@ -2391,8 +2528,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18701/default_803d9095ae52cd39a90bd905df9c2e4583f75904.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/mime/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/mime-db/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: mime-types
@@ -2405,8 +2542,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16448/default_89ba91277e3434b03295bb11d22736632df1d04f.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/type-is/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: mkdirp
@@ -2419,7 +2556,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15881/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: node_modules/qs/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/qs/package.json
   detection_source: node_modules/qs/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2433,7 +2570,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16120/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
-  detection_source_url: node_modules/debug/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/debug/package.json
   detection_source: node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2447,7 +2584,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17842/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
-  detection_source_url: node_modules/mongodb/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/mongodb/package.json
   detection_source: node_modules/mongodb/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2461,7 +2598,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/express/package.json
   detection_source: node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2475,8 +2612,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16565/default_536789d2630ed352dc721a1c915ab456b7660201.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/send/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: multiparty
@@ -2489,7 +2626,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17690/default_e87994647b10b361432e73d1831e5982307760e2.png
-  detection_source_url: node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/express/package.json
   detection_source: node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2502,7 +2639,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17889/default_788839e3786ca1ccd5da69cc550f25d0129fb180.png
-  detection_source: node_modules/semver/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bson/package.json
+  detection_source: node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: mz
@@ -2514,6 +2652,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16589/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/string_decoder/package.json
   detection_source: node_modules/string_decoder/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2526,7 +2665,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17983/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: nodeunit
@@ -2539,8 +2679,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16216/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
-  detection_source_url: node_modules/bson/package.json
-  detection_source: node_modules/ipaddr.js/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bson/package.json
+  detection_source: node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: np
@@ -2552,7 +2692,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16247/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: npm
@@ -2564,7 +2705,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16105/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: nps
@@ -2577,6 +2719,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17596/default_2b5fe3dc5bfc4e83a84162459ff612ac6febd61a.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/safe-buffer/package.json
   detection_source: node_modules/safe-buffer/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2589,6 +2732,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16235/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/qs/package.json
   detection_source: node_modules/qs/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2602,8 +2746,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15837/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: node_modules/accepts/package.json
-  detection_source: node_modules/type-is/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: object-assign
@@ -2616,8 +2760,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16015/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/object-assign/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/cors/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: ol
@@ -2629,7 +2773,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18695/default_ba22650903e999378ab35f8093d2d808f0a46039.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: on-finished
@@ -2642,8 +2787,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17498/default_e5adc22c59a44962e41dfaec51edeb42c083f2f4.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/send/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: open
@@ -2655,7 +2800,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16245/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
-  detection_source: node_modules/utils-merge/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/iconv-lite/package.json
+  detection_source: node_modules/iconv-lite/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: os
@@ -2667,7 +2813,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17784/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: pad
@@ -2679,7 +2826,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18387/default_443ead48d03f7b1fc57a05db4ff2c559c3e54f5e.png
-  detection_source: node_modules/proxy-addr/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/ipaddr.js/package.json
+  detection_source: node_modules/ipaddr.js/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: parseurl
@@ -2692,8 +2840,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17347/default_b8b4be8bd54f9619446b80b2bf448c0891101f2a.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/serve-static/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: path
@@ -2705,7 +2853,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16082/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
-  detection_source: node_modules/resolve-from/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/express/package.json
+  detection_source: node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: path-to-regexp
@@ -2718,8 +2867,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16316/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/path-to-regexp/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: pg
@@ -2731,7 +2880,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16197/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
-  detection_source: node_modules/debug/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bson/package.json
+  detection_source: node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: phantom
@@ -2743,7 +2893,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17469/default_2a4dc012d9584af49ba34825451ae7a5a8d75e4b.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: poi
@@ -2755,6 +2906,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17761/default_a53af9d6b5a4c8c6e8d5f8494d76a8d2efd3e660.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/saslprep/package.json
   detection_source: node_modules/saslprep/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2767,7 +2919,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17866/default_99a4718ac3f2beccb28962b727b0a38010c9b496.png
-  detection_source: node_modules/readable-stream/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/process-nextick-args/package.json
+  detection_source: node_modules/process-nextick-args/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: promise
@@ -2779,7 +2932,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16093/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: publish
@@ -2791,7 +2945,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18190/default_b56a957d927d2e40d2c7cf9f3588b95c4df2c97c.png
-  detection_source: node_modules/semver/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/qs/package.json
+  detection_source: node_modules/qs/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: qs
@@ -2804,8 +2959,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16125/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/qs/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
   vulnerabilities:
@@ -2824,6 +2979,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16418/default_d73092129e1cde5ea9f47f22e2d7c3db7bd6da8d.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/qs/package.json
   detection_source: node_modules/qs/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2836,6 +2992,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16199/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/debug/package.json
   detection_source: node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2849,8 +3006,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18315/default_f1e168ebe0f124084b9a0acbe78bc5cdba7b4575.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/send/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: raw-body
@@ -2863,8 +3020,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17336/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/unpipe/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: rc
@@ -2876,7 +3033,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16813/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
-  detection_source: node_modules/utils-merge/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/content-disposition/package.json
+  detection_source: node_modules/content-disposition/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: read
@@ -2888,7 +3046,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17342/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: readable-stream
@@ -2901,8 +3060,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16322/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/util-deprecate/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/bl/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: ref
@@ -2914,6 +3073,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18418/default_4d27e57a415c059481cbe1fd0734523c261d311a.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/isarray/package.json
   detection_source: node_modules/isarray/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2927,8 +3087,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: node_modules/iconv-lite/package.json
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/iconv-lite/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
   vulnerabilities:
@@ -2947,7 +3107,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16128/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: resolve-from
@@ -2960,8 +3121,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17861/default_78858facb60c08d15198eb69a6c7f48463f2c09f.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/resolve-from/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/require_optional/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: rimraf
@@ -2974,7 +3135,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: node_modules/debug/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/debug/package.json
   detection_source: node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -2987,7 +3148,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16783/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
-  detection_source: node_modules/toidentifier/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/ee-first/package.json
+  detection_source: node_modules/ee-first/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: s3
@@ -2999,6 +3161,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18491/default_0f684fdba52879fd48ceb8876e4283627899355a.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/readable-stream/package.json
   detection_source: node_modules/readable-stream/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -3012,8 +3175,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16801/default_dc62f5e9b636403c2d19676924f5b6b881abcac8.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/string_decoder/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/bl/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: safe-publish-latest
@@ -3026,7 +3189,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17965/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
-  detection_source_url: node_modules/qs/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/qs/package.json
   detection_source: node_modules/qs/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -3040,7 +3203,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17815/default_78858facb60c08d15198eb69a6c7f48463f2c09f.png
-  detection_source_url: node_modules/etag/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/etag/package.json
   detection_source: node_modules/etag/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -3055,8 +3218,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17093/default_1dbf402c11ef653fcaedc84e608a244e30ebfb87.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/statuses/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: serve
@@ -3068,7 +3231,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16484/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
-  detection_source: node_modules/serve-static/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/cookie/package.json
+  detection_source: node_modules/cookie/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: serve-static
@@ -3081,8 +3245,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16295/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/serve-static/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/encodeurl/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: sha1
@@ -3094,7 +3258,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17695/default_148ef251371a47f69a7acad9f3b25e2ec2ee4aa4.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/array-flatten/package.json
+  detection_source: node_modules/array-flatten/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: should
@@ -3107,8 +3272,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15871/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: node_modules/express/package.json
-  detection_source: node_modules/media-typer/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/express/package.json
+  detection_source: node_modules/cookie-signature/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: sinon-chai
@@ -3121,8 +3286,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15914/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: node_modules/debug/package.json
-  detection_source: node_modules/mongodb/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/debug/package.json
+  detection_source: node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: st
@@ -3134,7 +3299,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18455/default_d8e945bfec4c4a608fb0493abf73c9ec1cffc9a2.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: standard
@@ -3147,8 +3313,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15878/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: node_modules/array-flatten/package.json
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/array-flatten/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: standard-version
@@ -3161,7 +3327,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16053/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
-  detection_source_url: node_modules/mongodb/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/mongodb/package.json
   detection_source: node_modules/mongodb/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -3182,8 +3348,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18232/default_006273ebad013729e0798e0376579caca9efaa4e.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/statuses/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: stream
@@ -3195,7 +3361,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18008/default_d8756eea8d13a271fb42437ffb36c0a116d72925.png
-  detection_source: node_modules/util-deprecate/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bl/package.json
+  detection_source: node_modules/bl/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: string
@@ -3208,7 +3375,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16825/default_dc62f5e9b636403c2d19676924f5b6b881abcac8.png
-  detection_source: node_modules/toidentifier/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bytes/package.json
+  detection_source: node_modules/bytes/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: stringify
@@ -3220,6 +3388,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18492/default_9c45ef918d27804fb2a0b2f31e341286bc3bc5d7.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/qs/package.json
   detection_source: node_modules/qs/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -3232,6 +3401,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17937/default_40b5ae806e118a20c1717c75a46652a7358d8b42.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/readable-stream/package.json
   detection_source: node_modules/readable-stream/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -3245,8 +3415,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16027/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
-  detection_source_url: node_modules/core-util-is/package.json
-  detection_source: node_modules/string_decoder/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/core-util-is/package.json
+  detection_source: node_modules/bl/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: tape
@@ -3259,8 +3429,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15856/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: node_modules/bl/package.json
-  detection_source: node_modules/sparse-bitfield/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bl/package.json
+  detection_source: node_modules/bl/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: temp
@@ -3272,7 +3442,21 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16400/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/ejs/package.json
   detection_source: node_modules/ejs/package.json
+  last_updated_by: Naynesh Rathod
+  last_updated_on: 2020-04-14 10:21:11.000000000 Z
+- name: test
+  description: ''
+  package_url: https://www.npmjs.com/test
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18204/default_329699d382cad74e0d389300999bd267b9699d3f.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: tsc
@@ -3284,6 +3468,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18739/default_45da7a7c78da21b4de04db19cc949c3490185f5e.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/denque/package.json
   detection_source: node_modules/denque/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -3297,8 +3482,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17768/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/type-is/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: typings
@@ -3310,7 +3495,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16198/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
-  detection_source: node_modules/setprototypeof/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/iconv-lite/package.json
+  detection_source: node_modules/iconv-lite/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: uglify
@@ -3322,7 +3508,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18097/image.png
-  detection_source: node_modules/ipaddr.js/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/ejs/package.json
+  detection_source: node_modules/ejs/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: uglify-js
@@ -3335,8 +3522,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15900/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: node_modules/ejs/package.json
-  detection_source: node_modules/ipaddr.js/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/ejs/package.json
+  detection_source: node_modules/ejs/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: url
@@ -3348,7 +3535,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16462/default_89ba91277e3434b03295bb11d22736632df1d04f.png
-  detection_source: node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/accepts/package.json
+  detection_source: node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: url-parse
@@ -3361,6 +3549,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16942/default_3772c3833c88109974c994fa9f9548ac8ad59f11.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/parseurl/package.json
   detection_source: node_modules/parseurl/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -3373,6 +3562,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17329/default_33c3173e7d0e91f7cea0eab9883ca83b157bd4a5.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/readable-stream/package.json
   detection_source: node_modules/readable-stream/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -3385,7 +3575,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16507/default_55f3303d620c93eecbee69c43373d484f2be492f.png
-  detection_source: node_modules/utils-merge/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bytes/package.json
+  detection_source: node_modules/bytes/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: utils-merge
@@ -3398,8 +3589,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17738/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/utils-merge/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/package-lock.json
+  detection_source: node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: vision
@@ -3411,7 +3602,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18118/image.png
-  detection_source: node_modules/send/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bytes/package.json
+  detection_source: node_modules/bytes/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: walk
@@ -3423,6 +3615,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16860/default_768abdabb94806c932ace6262b6bbc8241907245.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/require_optional/test/nestedTest/package.json
   detection_source: node_modules/require_optional/test/nestedTest/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -3435,6 +3628,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17450/default_8c4651c288471a00b2fd6f2055b6de29cb9a049d.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/raw-body/package.json
   detection_source: node_modules/raw-body/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -3447,6 +3641,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16550/default_50be6a65e5f7390c20dda2f19371abc1271db012.png
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/on-finished/package.json
   detection_source: node_modules/on-finished/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -3460,7 +3655,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18762/default_b057657dca80f65f97b5bbe8ba405ffa92071739.png
-  detection_source: node_modules/send/node_modules/ms/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/bson/package.json
+  detection_source: node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: xo
@@ -3473,8 +3669,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16016/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
-  detection_source_url: node_modules/object-assign/package.json
-  detection_source: node_modules/toidentifier/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/object-assign/package.json
+  detection_source: node_modules/ipaddr.js/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: xtend
@@ -3486,7 +3682,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16315/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
-  detection_source: node_modules/send/node_modules/ms/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/iconv-lite/package.json
+  detection_source: node_modules/iconv-lite/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
 - name: yargs
@@ -3499,7 +3696,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: node_modules/mongodb/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/mongodb/package.json
   detection_source: node_modules/mongodb/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
@@ -3512,6 +3709,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17899/default_3bc64391130859f94a137a7dc6cb87cd54da546b.png
-  detection_source: node_modules/require_optional/package.json
+  detection_source_url: https://github.com/nayneshrathod/EJS-example/blob/master/node_modules/ee-first/package.json
+  detection_source: node_modules/ee-first/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-04-14 10:21:11.000000000 Z
